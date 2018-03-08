@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <a href="./umed_resume.pdf">resume<a/>
+        <a href="./umed_resume.pdf">resume</a>
       </div>
     );
   }
