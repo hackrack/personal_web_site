@@ -5,7 +5,11 @@ import './App.css';
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-
+import image from "./images/ibrohimov.jpg";
+let styles = {
+  height: "200px",
+  width: "200px"
+}
 class App extends Component {
   render() {
     return (
@@ -13,10 +17,10 @@ class App extends Component {
         <h1>Umedjon Ibrohimov</h1>
         <h4>39 Wallis Ave, Jersey City, NJ, 07306</h4>
         <h4>
-          <a href="https://www.linkedin.com/in/umedjon-ibrohimov/">
+          <a href="https://www.linkedin.com/in/umedjon-ibrohimov/" target="_blank">
             LinkedIn
           </a>{" "}
-          <a href="https://github.com/hackrack">GitHub</a>
+          <a href="https://github.com/hackrack" target="_blank">GitHub</a>
         </h4>
         <br></br><br></br>
         <nav>
@@ -25,11 +29,11 @@ class App extends Component {
           <Link to="/projects">Projects</Link>&nbsp;&nbsp;&nbsp;
         </nav>
         <Switch>
-          <Route path="/aboutme" component={About} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/projects" component={Projects} />
+          <Route exact path="/aboutme" component={About} />
+          <Route exact path="/skills" component={Skills} />
+          <Route exact path="/projects" component={Projects} />
         </Switch>
-        <img src="file:///Users/c4q/Desktop/ibrohimov.jpg" alt="pic" />
+        <img src={image} alt="pic" style={styles} />
       </div>
     );
   }
