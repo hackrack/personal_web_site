@@ -5,15 +5,14 @@ let styles = {
   height: "200px",
   width: "200px"
 }
+
 class About extends React.Component {
 
     render() {
       return(
         <div>
           <h1>About Me</h1>
-          <h4>39 Wallis Ave, Jersey City, NJ, 07306</h4>
-          <h5>Email: umedjonibrohimov@ac.c4q.nyc</h5>
-          <h5>Mobile: 1 (347)-366-6891</h5>
+          <h4>Address: 39 Wallis Ave, Jersey City, NJ, 07306<br/>Email: umedjonibrohimov@ac.c4q.nyc<br/>Mobile: 1 (347)-366-6891</h4>
           <h4>
             <a href="https://www.linkedin.com/in/umedjon-ibrohimov/" target="_blank">
               LinkedIn

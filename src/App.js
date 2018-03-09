@@ -14,14 +14,14 @@ class App extends Component {
       <div className="App">
         <nav>
           <Link to="/">Home</Link>&nbsp;&nbsp;&nbsp;
-          <Link to="/aboutme">About Me</Link>&nbsp;&nbsp;&nbsp;
+          <Link to="/about">About Me</Link>&nbsp;&nbsp;&nbsp;
           <Link to="/skills">Skills</Link>&nbsp;&nbsp;&nbsp;
           <Link to="/projects">Projects</Link>&nbsp;&nbsp;&nbsp;
           <Link to="/resume">Resume</Link>&nbsp;
         </nav>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/aboutme" component={About} />
+          <Route path="/about" component={About} />
           <Route path="/skills" component={Skills} />
           <Route path="/projects" component={Projects} />
           <Route path="/resume" component={Resume} />
