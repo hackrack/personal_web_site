@@ -6,6 +6,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
+import Resume from "./components/Resume";
 
 class App extends Component {
   render() {
@@ -16,12 +17,14 @@ class App extends Component {
           <Link to="/aboutme">About Me</Link>&nbsp;&nbsp;&nbsp;
           <Link to="/skills">Skills</Link>&nbsp;&nbsp;&nbsp;
           <Link to="/projects">Projects</Link>&nbsp;&nbsp;&nbsp;
+          <Link to="/resume">Resume</Link>&nbsp;
         </nav>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/aboutme" component={About} />
           <Route path="/skills" component={Skills} />
           <Route path="/projects" component={Projects} />
+          <Route path="/resume" component={Resume} />
         </Switch>
       </div>
     );

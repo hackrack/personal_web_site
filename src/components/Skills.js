@@ -23,6 +23,7 @@ let styles =
     width: "200px"
   }
   
+  
 class Skills extends React.Component {
 
     render() {
