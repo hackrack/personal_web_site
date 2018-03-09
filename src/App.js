@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import { Link, Switch, Route } from "react-router-dom";
+// import { Link, Switch, Route } from "react-router-dom";
 import './App.css';
-import About from "./components/About";
-import About from "./components/Skills";
-import About from "./components/Projects";
+// import About from "./components/About";
+// import Skills from "./components/Skills";
+// import Projects from "./components/Projects";
 
 class App extends Component {
   render() {
@@ -19,17 +19,17 @@ class App extends Component {
           <a href="https://github.com/hackrack">GitHub</a>
         </h4>
         <br></br><br></br>
-        <nav>
+        {/*<nav>
           <Link to="/aboutme">About Me</Link>&nbsp;&nbsp;&nbsp;
           <Link to="/skills">Skills</Link>&nbsp;&nbsp;&nbsp;
           <Link to="/projects">Projects</Link>&nbsp;&nbsp;&nbsp;
         </nav>
-        <Switch>
+        {/*<Switch>
           <Route path="/aboutme" component={About} />
           <Route path="/skills" component={Skills} />
           <Route path="/projects" component={Projects} />
-        </Switch>
-        <img src="file:///Users/c4q/Desktop/ibrohimov%20(1).jpg" alt="pic" />
+        </Switch>*/}
+        <img src="file:///Users/c4q/Desktop/ibrohimov.jpg" alt="pic" />
       </div>
     );
   }
