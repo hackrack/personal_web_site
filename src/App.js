@@ -8,6 +8,8 @@ import Projects from "./components/Projects";
 import Home from "./components/Home";
 import Resume from "./components/Resume";
 
+
+
 class App extends Component {
   render() {
     return (

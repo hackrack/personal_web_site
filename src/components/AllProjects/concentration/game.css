@@ -1,0 +1,10 @@
+.board {
+    background-image: url('https://raw.githubusercontent.com/alejo4373/concentration_web_game-ReactJS-/master/medieval_theme/background_img.png');
+    width: 668px;
+    height: 668px;
+    margin: auto;
+}
+
+.card {
+    margin: 17px 19.5px
+}
